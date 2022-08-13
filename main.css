@@ -1,0 +1,36 @@
+:root {
+    --leading-theme-color: #C149DF;
+    --polaroid-icon-img: "grafiki_pod_strone/polaroid2.png";
+}
+*{
+    scroll-behavior: smooth;
+    font-family: "VCR OSD Mono";
+
+}
+
+.xdd {
+    width: 300px;
+    height: 200px;
+    background-color: var(--leading-theme-color);
+}
+
+
+@media screen and (max-width: 768px){
+    .logo{
+        width: 10%;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 769px){
+    .logo{
+        visibility: hidden;
+    }
+}
+.banner-image{
+    background-image: url('grafiki_pod_strone/pstk.png');
+    background-size: cover;
+}
+.logo{
+    width: 5%;
+    height: 100%;
+}
