@@ -1,10 +1,15 @@
 {% extends "landingpage.html" %}
+{% block title %}PROFOUND STUDIO | HOME{% endblock %}
+
 {% block nav %}
-    <img class="logo" src="grafiki_pod_strone/polaroid2.png" alt="logo">
+<nav>
+    <img class="logo" src="{{url_for('static', filename='grafiki_pod_strone/polaroid2.png')}}" alt="logo">
     <div class="navbar_buttons">
         <button class="navbar_b">HOME</button>
         <button class="navbar_b">O MNIE</button>
         <button class="navbar_b">PORTFOLIO</button>
         <button class="navbar_b">KONTAKT</button>
     </div>
-    <img class="menu_icon" src="grafiki_pod_strone/menu.svg" alt="menu">{% endblock %}
+    <img class="menu_icon" src="{{url_for('static', filename='grafiki_pod_strone/menu.svg')}}" alt="menu">
+</nav>
+{% endblock %}
