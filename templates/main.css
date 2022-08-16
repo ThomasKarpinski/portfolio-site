@@ -15,7 +15,7 @@
 }*/
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 428px){
     .logo, .menu_icon {
         width: 10%;
         height: 10%;
@@ -24,7 +24,7 @@
         opacity: 0;
     }
 }
-@media screen and (min-width: 769px){
+@media screen and (min-width: 429px){
     .logo, .menu_icon{
         width: 10%;
         height: 10%;
@@ -44,6 +44,8 @@ nav {
     border: hidden;
 }
 
-.menu_icon {
-    display: ;
+.navbar_buttons {
+    display: flex;
+    justify-content: space-around;
+
 }

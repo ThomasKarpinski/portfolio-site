@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
     <head>
         <title>Profound Studio | HOME</title>
         <meta charset="UTF-8" />
@@ -10,13 +10,7 @@
               integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     </head>
     <body>
-        <nav>
-            <img class="logo" src="grafiki_pod_strone/polaroid2.png" alt="logo">
-            <div class="navbar_buttons">
-                <button class="navbar_b" href="">HOME</button>
-            </div>
-            <img class="menu_icon" src="grafiki_pod_strone/menu.svg">
-        </nav>
+        <nav>{% block nav %}{% endblock %}</nav>
     </body>
     <link rel="script" href="app.js">
 </html>
