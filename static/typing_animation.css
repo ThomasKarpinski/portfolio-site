@@ -1,0 +1,21 @@
+.typ {
+    padding-left: 20px;
+    position: absolute;
+    background-color: #00B4AE;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#text {
+    border-right: solid white 4px;
+    height: 35px;
+}
+
+@media screen and (max-width: 768px) {
+
+    #text {
+        height: 200%;
+    }
+}

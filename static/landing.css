@@ -1,0 +1,24 @@
+:root {
+    --leading-theme-color: #C149DF;
+    --second-leading-color: #391b54;
+    --third-leading-color: #00B4AE;
+    --polaroid-icon-img: "grafiki_pod_strone/polaroid2.png";
+}
+
+section{
+    background-image: linear-gradient(var(--leading-theme-color), var(--second-leading-color));
+}
+
+nav{
+    background-image: linear-gradient(var(--second-leading-color), var(--leading-theme-color));
+}
+
+.background {
+    width: 100%;
+    height: 500px;
+}
+
+section {
+    width: 100%;
+    display: flex;
+}

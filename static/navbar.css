@@ -1,0 +1,119 @@
+:root {
+    --leading-theme-color: #C149DF;
+    --second-leading-color: #391b54;
+    --third-leading-color: #00B4AE;
+}
+
+@keyframes magic{
+    30%{
+        background-color: hsl(50, 100%, 50%);
+    }
+    60%{
+        background-color: hsl(150, 100%, 50%);
+    }
+    90%{
+        background-color: hsl(250, 100%, 50%);
+    }
+}
+
+nav {
+    padding: 20px 10px ;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar_b {
+    border: hidden;
+    font-size: 24px;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.navbar_buttons {
+    display: flex;
+    gap: 32px;
+    padding-right: 10%;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+    padding-left: 20px;
+}
+
+.menu_icon {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .logo{
+        width: 15%;
+        height: 15%;
+    }
+
+    .menu_icon {
+        display: block;
+        width: 10%;
+        height: 5%;
+    }
+
+
+    nav .navbar_buttons {
+        display: none;
+    }
+
+    .navbar_b {
+        font-size: 18px;
+    }
+
+}
+
+
+.navbar_b{
+    overflow: hidden;
+    position: relative;
+    opacity: .8;
+    height: 50px;
+    background-color: var(--leading-theme-color);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 7px solid var(--second-leading-color);
+    padding-top: 5px;
+    transition: background-color .2s ease-in-out;
+    z-index: 1;
+}
+
+.navbar_b::after{
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--third-leading-color);
+    top: 0;
+    right: -100%;
+    transition: transform .5s ease-out;
+    will-change: transform;
+}
+.navbar_b:hover::after{
+    transform: translateX(-100%);
+}
+
+.box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 10%);
+    transform: scale(0);
+    transition: transform 1s ease-in-out;
+}
+
+.navbar_b:hover ~ .box {
+    transform: scale(1);
+    animation: magic 5s infinite;
+}
