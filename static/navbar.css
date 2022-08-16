@@ -4,23 +4,36 @@
     --third-leading-color: #00B4AE;
 }
 
-@keyframes magic{
-    30%{
-        background-color: hsl(50, 100%, 50%);
-    }
-    60%{
-        background-color: hsl(150, 100%, 50%);
-    }
-    90%{
-        background-color: hsl(250, 100%, 50%);
-    }
-}
 
 nav {
     padding: 20px 10px ;
     display: flex;
     justify-content: space-between;
 
+}
+
+@keyframes appearFromBottom{
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+        border-radius: 75%;
+    }
+    30%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    80%{
+        border-radius: 0;
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .navbar_b {
@@ -41,6 +54,12 @@ nav {
     width: 10%;
     height: 10%;
     padding-left: 20px;
+    animation: appear 3s 0.5s both;
+    transition: background-color .25s .25s ease-in-out;
+}
+
+.box--from-bottom {
+    animation: appearFromBottom 2s 0.5s both;
 }
 
 .menu_icon {
