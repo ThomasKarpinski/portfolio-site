@@ -5,7 +5,7 @@
 <nav>
     <img class="logo box--from-bottom" src="{{url_for('static', filename='grafiki_pod_strone/polaroid2.png')}}" alt="logo">
     <div class="navbar_buttons">
-        <button class="navbar_b">HOME</button>
+        <button onclick="link()" class="navbar_b">HOME</button>
         <button class="navbar_b">O MNIE</button>
         <button class="navbar_b">PORTFOLIO</button>
         <button class="navbar_b">KONTAKT</button>
@@ -18,4 +18,14 @@
 <div class="typ">
     <h1 id="text"></h1>
 </div>
+{% endblock typing %}
+
+{% block rightnav %}
+    <div class="rightnav">
+        <img class="line1" src="{{url_for('static', filename='grafiki_pod_strone/1x/line.svg')}}" alt="inst">
+        <img onclick="l1()" class="inst" src="{{url_for('static', filename='grafiki_pod_strone/1x/inst.svg')}}" alt="inst">
+        <img onclick="l2()" class="face" src="{{url_for('static', filename='grafiki_pod_strone/1x/face.svg')}}" alt="inst">
+        <img onclick="l3()" class="mail" src="{{url_for('static', filename='grafiki_pod_strone/1x/mail.svg')}}" alt="inst">
+        <img class="line2" src="{{url_for('static', filename='grafiki_pod_strone/1x/line.svg')}}" alt="inst">
+    </div>
 {% endblock %}
