@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/home")
 @app.route("/")
 def navbar():
-    return render_template("navbar.html")
+    return render_template("templates.html")
 
 
 if __name__ == "__main__":

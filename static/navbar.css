@@ -92,7 +92,7 @@ nav {
 }
 
 
-.navbar_b{
+.navbar_b {
     animation: appearFromBottom 3s forwards;
     overflow: hidden;
     position: relative;
@@ -106,6 +106,8 @@ nav {
     padding-top: 5px;
     transition: background-color .2s ease-in-out;
     z-index: 1;
+
+
 }
 
 .navbar_b::after{

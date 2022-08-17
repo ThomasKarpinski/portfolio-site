@@ -30,4 +30,18 @@
     <script src="{{ url_for('static',filename='typinganimation.js') }}"></script>
     <script src="{{ url_for('static',filename='navbar.js') }}"></script>
     <script src="{{ url_for('static',filename='rightnavbar.js') }}"></script>
+    <script src="{{ url_for('static',filename='app.js') }}"></script>
+    <script src="bower_components/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.icon', {
+            reset: true,
+            delay: 300,
+            distance: 0
+        });
+        sr.reveal('h2, p', {
+            reset: true,
+            delay: 300
+        });
+    </script>
 </html>

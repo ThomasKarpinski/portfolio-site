@@ -5,17 +5,38 @@
     --polaroid-icon-img: "grafiki_pod_strone/polaroid2.png";
 }
 
-@keyframes appear {
-    0% {
-        transform: translateY(-10%);
-
+@keyframes appearFromTop{
+    0%{
+        height: 0;
+        opacity: 0;
+        transform: translateY(-200%);
     }
-
-    50% {
+    100%{
+        opacity: 1;
         transform: translateY(0);
     }
+}
+
+@keyframes FromBottom{
+    0%{
+        height: 0;
+        opacity: 0;
+        transform: translateY(200%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        border-radius: 100%;
+    }
     100% {
-        transform: translateY(-10%);
+        opacity: 1;
+        border-radius: 0;
     }
 }
 
@@ -38,6 +59,20 @@ section {
     height: 100vh;
 }
 
+
+@media screen and (max-width: 768px){
+
+    section {
+        height: 50%;
+    }
+
+    .rightnav{
+        opacity: 0;
+        position: absolute;
+    }
+
+}
+
 .rightnav{
     padding-right: 5%;
     display: flex;
@@ -47,6 +82,41 @@ section {
     width: 7%;
 
 }
+
+
+
 .line1, .line2 {
     height: 25vh;
+}
+
+.inst:hover, .mail:hover {
+    transform: rotate(15deg) scale(2) translateX(-30%);
+    transition: transform 1s ease-out;
+}
+.face:hover {
+    transform: rotate(15deg) scale(1.5) translateX(-30%);
+    transition: transform 1s ease-out;
+}
+
+.inst:hover::after {
+    width: 100px;
+    height: 100px;
+    background-image: url('../static/grafiki_pod_strone/1x/instk.svg');
+}
+
+.line1 {
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation: appearFromTop 2s ;
+}
+.line2 {
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation: FromBottom 2s ;
+}
+
+.inst, .face, .mail {
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation: appear 3s ;
 }

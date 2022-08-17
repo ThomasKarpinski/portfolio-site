@@ -3,12 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="1759239b-6658-4126-8cbe-36d2eae7c5e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/typinganimation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/grafiki_pod_strone/SVG/Zasób 1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/grafiki_pod_strone/SVG/Zasób 2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/grafiki_pod_strone/SVG/Zasób 3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/grafiki_pod_strone/SVG/Zasób 4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/grafiki_pod_strone/SVG/faceb-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/grafiki_pod_strone/SVG/inst_logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/grafiki_pod_strone/SVG/line.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/grafiki_pod_strone/SVG/mail-logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/typing_animation.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/typing_animation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/typinganimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/typinganimation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/landingpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landingpage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/templates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutoriale/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/tutoriale/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +72,8 @@
       <updated>1660571295359</updated>
       <workItem from="1660573300296" duration="1180000" />
       <workItem from="1660658924341" duration="20522000" />
-      <workItem from="1660733049281" duration="17529000" />
+      <workItem from="1660733049281" duration="17604000" />
+      <workItem from="1660760757189" duration="16544000" />
     </task>
     <servers />
   </component>

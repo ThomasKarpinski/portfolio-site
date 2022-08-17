@@ -27,7 +27,7 @@
 #text {
     border-right: solid white 4px;
     height: 35px;
-    animation: appearFromLeft 2s 0.5s both;
+    animation: appearFromLeft 3s 0.5s both;
 }
 
 @media screen and (max-width: 768px) {
