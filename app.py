@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/home")
 @app.route("/")
-def navbar():
+def home():
     return render_template("templates.html")
 
 

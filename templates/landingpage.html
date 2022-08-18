@@ -22,7 +22,12 @@
         {% block rightnav %}{% endblock %}
     </section>
         <div class="curves1">
-            <img class="curves" src="{{url_for('static', filename='../static/grafiki_pod_strone/curves1.svg')}}" alt="curves">
+            <div class="shortAbout">
+                <h2>Trochę o mnie</h2>
+            </div>
+            <div class="phone" data-tilt data-tilt-scale="1.1"></div>
+        </div>
+        <div class="curves2">
             <img class="curves" src="{{url_for('static', filename='../static/grafiki_pod_strone/curves2.svg')}}" alt="curves">
         </div>
     </body>
@@ -31,17 +36,17 @@
     <script src="{{ url_for('static',filename='navbar.js') }}"></script>
     <script src="{{ url_for('static',filename='rightnavbar.js') }}"></script>
     <script src="{{ url_for('static',filename='app.js') }}"></script>
-    <script src="bower_components/scrollreveal/dist/scrollreveal.min.js"></script>
-    <script>
-        window.sr = ScrollReveal();
-        sr.reveal('.icon', {
-            reset: true,
-            delay: 300,
-            distance: 0
+    <script src="{{ url_for('static',filename='gsapscrollinganimations.js') }}"></script>
+    <script src="{{ url_for('static',filename='../dist/vanilla-tilt.js') }}"></script>
+
+    <!--<script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".background"), {
+            glare: true,
+            reverse: true,
+            "max-glare": 0.5,
+            startX: 45,
+            startY: 45,
+            reset: false,
         });
-        sr.reveal('h2, p', {
-            reset: true,
-            delay: 300
-        });
-    </script>
+    </script>-->
 </html>
