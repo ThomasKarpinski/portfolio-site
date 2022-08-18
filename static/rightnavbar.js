@@ -1,9 +1,9 @@
 const l1 = () =>{
-    location.href = "https://www.instagram.com/profound.studio.tk/";
+    window.open("https://www.instagram.com/profound.studio.tk/",'_blank');
 }
 const l2 = () =>{
-    location.href = "https://www.facebook.com/";
+    window.open("https://www.facebook.com/",'_blank');
 }
 const l3 = () =>{
-    location.href = "https://www.google.com/intl/pl/gmail/";
+    window.open("https://www.google.com/intl/pl/gmail/",'_blank');
 }
