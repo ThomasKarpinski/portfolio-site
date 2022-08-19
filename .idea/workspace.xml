@@ -3,14 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1759239b-6658-4126-8cbe-36d2eae7c5e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/gsapscrollinganimations.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/gsapscrollinganimations.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/landingpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landingpage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/templates.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/templates.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutoriale/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/tutoriale/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +18,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -52,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tomas\Dropbox\Mój komputer (LAPTOP-T7BJESQF)\Desktop\MojaStronaZPortfolio\static" />
       <recent name="C:\Users\tomas\Dropbox\Mój komputer (LAPTOP-T7BJESQF)\Desktop\MojaStronaZPortfolio" />
       <recent name="C:\Users\tomas\Desktop\MojaStronaZPortfolio\templates" />
     </key>
@@ -70,7 +69,8 @@
       <workItem from="1660760757189" duration="16776000" />
       <workItem from="1660815647616" duration="2376000" />
       <workItem from="1660818430333" duration="9316000" />
-      <workItem from="1660839699424" duration="4710000" />
+      <workItem from="1660839699424" duration="4896000" />
+      <workItem from="1660901260668" duration="13898000" />
     </task>
     <servers />
   </component>
@@ -87,6 +87,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

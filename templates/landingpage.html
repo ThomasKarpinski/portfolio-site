@@ -16,16 +16,17 @@
     </head>
     <body>
         {% block nav %}{% endblock nav %}
-    <section>
         {% block typing %}{% endblock typing %}
+    <section>
         <img class="background" src="{{url_for('static', filename='../static/grafiki_pod_strone/mainwebdrawing2.svg')}}" alt="logo">
         {% block rightnav %}{% endblock %}
     </section>
         <div class="curves1">
             <div class="shortAbout">
-                <h2>Trochę o mnie</h2>
+                <h2>SOMETHING ABOUT ME</h2>
             </div>
-            <div class="phone" data-tilt data-tilt-scale="1.1"></div>
+            <div class="phone" ></div>
+            <img class="pic" width="400" height="200" />
         </div>
         <div class="curves2">
             <img class="curves" src="{{url_for('static', filename='../static/grafiki_pod_strone/curves2.svg')}}" alt="curves">
@@ -36,17 +37,18 @@
     <script src="{{ url_for('static',filename='navbar.js') }}"></script>
     <script src="{{ url_for('static',filename='rightnavbar.js') }}"></script>
     <script src="{{ url_for('static',filename='app.js') }}"></script>
-    <script src="{{ url_for('static',filename='gsapscrollinganimations.js') }}"></script>
-    <script src="{{ url_for('static',filename='../dist/vanilla-tilt.js') }}"></script>
 
-    <!--<script type="text/javascript">
+    <script src="{{ url_for('static',filename='gsapscrollinganimations.js') }}"></script>
+    <script src="{{ url_for('static',filename='vanilla-tilt.js') }}"></script>
+    <script type="text/javascript">
         VanillaTilt.init(document.querySelector(".background"), {
-            glare: true,
             reverse: true,
             "max-glare": 0.5,
-            startX: 45,
-            startY: 45,
-            reset: false,
+            startX: -45,
+            startY: -45,
+            reset: false
         });
-    </script>-->
+    </script>
+    <script src="{{ url_for('static',filename='slide_show.js') }}"></script>
+
 </html>
