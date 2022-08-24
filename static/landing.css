@@ -131,38 +131,67 @@ section {
     align-items: center;
 }
 
-.phone {
-    border: solid black 1px;
+
+
+.slider {
+    overflow: hidden;
+    height: 450px;
+    width: 300px;
+    box-shadow: 20px 20px 10px #242424;
     border-radius: 10%;
-    background-size: 100px 100px;
-    height: 10rem;
-    width: 8rem;
-    transform: rotate(-60deg) skew(25deg) translate(0,0) scaleX(2);
-    box-shadow: -20px 20px 10px #242424;
-    top: 50%;
-    left: 50%;
 }
 
-.phone:before {
-    content: '';
-    border-bottom-left-radius: 50%;
-    border-top-left-radius: 50%;
-    position: absolute;
-    width: 1rem;
-    height: 100%;
-    background: transparent;
-    transform: skewY(-45deg) rotate(0) translateX(100%);
-    left: -25%;
-    top: 25px
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+.slider figure:hover {
+    animation-play-state: paused;
 }
 
-.phone:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1rem;
-    background: transparent;
-    transform: skewX(-45deg) rotate(0deg) ;
-    left: -8px;
-    bottom: -10%;
+.slider figure img {
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -300%;
+    }
+
+}
+
+.more {
+    color: white;
+    border: none;
+    background-color: var(--second-leading-color);
+    font-size: 24px;
+    letter-spacing: 4px;
+    padding: 10px;
+}
+
+.more:hover {
+    border: black solid 2px;
+    background-color: white;
+    background-image: radial-gradient(
+    black 6px,
+    transparent 6px
+    );
+    background-size: 20px 20px;
+}
+.more:hover ~ .shortAbout h2 {
+    border: black solid 3px;
+    background-color: pink;
+}
+.slider:hover ~ .more {
+    color: pink;
 }

@@ -24,9 +24,16 @@
         <div class="curves1">
             <div class="shortAbout">
                 <h2>SOMETHING ABOUT ME</h2>
+                <button class="more">SEE MORE</button>
             </div>
-            <div class="phone" ></div>
-            <img class="pic" width="400" height="200" />
+            <div class="slider">
+                <figure>
+                    <img src="{{url_for('static', filename='../static/1.png')}}" alt="">
+                    <img src="{{url_for('static', filename='../static/2.png')}}" alt="">
+                    <img src="{{url_for('static', filename='../static/3.png')}}" alt="">
+                    <img src="{{url_for('static', filename='../static/1.png')}}" alt="">
+                </figure>
+            </div>
         </div>
         <div class="curves2">
             <img class="curves" src="{{url_for('static', filename='../static/grafiki_pod_strone/curves2.svg')}}" alt="curves">
@@ -40,15 +47,7 @@
 
     <script src="{{ url_for('static',filename='gsapscrollinganimations.js') }}"></script>
     <script src="{{ url_for('static',filename='vanilla-tilt.js') }}"></script>
-    <script type="text/javascript">
-        VanillaTilt.init(document.querySelector(".background"), {
-            reverse: true,
-            "max-glare": 0.5,
-            startX: -45,
-            startY: -45,
-            reset: false
-        });
-    </script>
-    <script src="{{ url_for('static',filename='slide_show.js') }}"></script>
+    <script src="{{ url_for('static',filename='vanila.js') }}"></script>
+
 
 </html>
