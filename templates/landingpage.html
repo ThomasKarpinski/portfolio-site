@@ -19,27 +19,31 @@
     <body>
         {% block nav %}{% endblock nav %}
         {% block typing %}{% endblock typing %}
-    <section class="sec1">
-        <img class="background" src="{{url_for('static', filename='../static/grafiki_pod_strone/mainwebdrawing2.svg')}}" alt="logo">
-        {% block rightnav %}{% endblock %}
-    </section>
-        <div class="curves1">
-            <div class="shortAbout">
-                <h2>SOMETHING ABOUT ME</h2>
-                <button class="more">SEE MORE</button>
+        <section class="sec1">
+            <img class="background" src="{{url_for('static', filename='../static/grafiki_pod_strone/mainwebdrawing2.svg')}}" alt="logo">
+            {% block rightnav %}{% endblock %}
+        </section>
+        <section class="sec2">
+            <div class="curves1">
+                <div class="shortAbout">
+                    <h2>SOMETHING ABOUT ME</h2>
+                    <button class="more">SEE MORE</button>
+                </div>
+                <div class="slider">
+                    <figure>
+                        <img src="{{url_for('static', filename='../static/1.png')}}" alt="">
+                        <img src="{{url_for('static', filename='../static/2.png')}}" alt="">
+                        <img src="{{url_for('static', filename='../static/3.png')}}" alt="">
+                        <img src="{{url_for('static', filename='../static/1.png')}}" alt="">
+                    </figure>
+                </div>
             </div>
-            <div class="slider">
-                <figure>
-                    <img src="{{url_for('static', filename='../static/1.png')}}" alt="">
-                    <img src="{{url_for('static', filename='../static/2.png')}}" alt="">
-                    <img src="{{url_for('static', filename='../static/3.png')}}" alt="">
-                    <img src="{{url_for('static', filename='../static/1.png')}}" alt="">
-                </figure>
+        </section>
+        <section class="sec3">
+            <div class="curves2">
+                <div class="slogan">najlepsza wersja odbicia rzeczywistości</div>
             </div>
-        </div>
-        <div class="curves2">
-            <img class="curves" src="{{url_for('static', filename='../static/grafiki_pod_strone/curves2.svg')}}" alt="curves">
-        </div>
+        </section>
     </body>
 
     <script src="{{ url_for('static',filename='typinganimation.js') }}"></script>

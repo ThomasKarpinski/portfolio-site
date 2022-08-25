@@ -40,7 +40,7 @@
     }
 }
 
-section{
+.sec1{
     background-image: linear-gradient(var(--leading-theme-color), var(--second-leading-color));
 }
 
@@ -171,3 +171,17 @@ nav{
 
 }
 
+.curves2 {
+    z-index: 1;
+    width: auto;
+    height: 200vh;
+    background: url("../static/grafiki_pod_strone/curves2.svg") no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.slogan {
+    z-index: 20;
+    text-transform: uppercase;
+}
