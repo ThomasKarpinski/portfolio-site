@@ -187,7 +187,11 @@ nav{
     margin-left: 15%;
     backdrop-filter: blur(30px);
     text-transform: uppercase;
+}
 
+.g:hover {
+    transform-style: preserve-3d;
+    transform: perspective(4000px) translateZ(300px);
 }
 
 @keyframes moving-shape1{
@@ -252,4 +256,28 @@ nav{
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease;
+}
+
+.sec4 {
+    /*background: transparent url("static/zdjęcia_portfolio/slogan2back.jpg") fixed no-repeat center center;*/
+    background: linear-gradient(
+            15deg,
+            var(--second-leading-color) 0%,
+            transparent 100%
+    );
+    color: white;
+    text-transform: uppercase;
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+.sec5 {
+    height: 100vh;
+    width: 100vw;
 }
