@@ -4,7 +4,11 @@
     <list default="true" id="1759239b-6658-4126-8cbe-36d2eae7c5e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/vanila.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/vanila.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/landingpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landingpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/templates.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/templates.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +72,8 @@
       <workItem from="1660839699424" duration="4896000" />
       <workItem from="1660901260668" duration="14339000" />
       <workItem from="1661345924724" duration="23344000" />
-      <workItem from="1661461097618" duration="4524000" />
+      <workItem from="1661461097618" duration="4946000" />
+      <workItem from="1661513597978" duration="7947000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,7 @@
 :root {
     --leading-theme-color: #C149DF;
-    --second-leading-color: #5e4694;
+    --second-leading-color: #391b54;
+    --third-leading-color: #00B4AE;
     --polaroid-icon-img: "grafiki_pod_strone/polaroid2.png";
 }
 *{
