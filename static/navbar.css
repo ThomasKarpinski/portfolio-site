@@ -22,6 +22,21 @@ nav {
     }
 }
 
+@keyframes disappearFromBottom{
+    0%{
+        opacity: 1;
+        transform: translateY(0);
+        border-radius: 0;
+    }
+    30%{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    80%{
+        border-radius: 75%;
+    }
+}
+
 @keyframes appear {
     0% {
         opacity: 0;
@@ -80,9 +95,15 @@ nav {
         height: 5%;
     }
 
-
     nav .navbar_buttons {
         display: none;
+    }
+
+    nav .navbar_buttons2 {
+        display: none;
+    }
+    .logo {
+        opacity: 0;
     }
 
     .navbar_b {
@@ -127,4 +148,24 @@ nav {
 }
 .navbar_b:active::after{
     background-color: var(--second-leading-color);
+}
+
+.shrink {
+    padding-left: 10%;
+    width: 100vw;
+    background: transparent !important;
+    z-index: 30;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    animation: appearFromBottom 2s 0.5s both;
+
+}
+.navbar_buttons2 {
+    display: flex;
+    justify-items: center;
+    gap: 32px;
+}
+.logo2{
+    display: none;
 }
