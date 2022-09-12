@@ -34,3 +34,15 @@
 {% block share %}
 
 {% endblock share %}
+
+{% block grid %}
+    <div class="photos">
+        <div class="napis">napis</div>
+        <img class="xd" src="{{url_for('static', filename='zdjęcia_portfolio/city.png')}}" alt="">
+        <img class="x2d" src="{{url_for('static', filename='zdjęcia_portfolio/speed1.png')}}" alt="">
+        <img class="x3d" src="{{url_for('static', filename='zdjęcia_portfolio/produkt1.jpg')}}" alt="">
+        <img class="x4d" src="{{url_for('static', filename='zdjęcia_portfolio/gabrysia.png')}}" alt="">
+        <img class="x5d" src="{{url_for('static', filename='zdjęcia_portfolio/zofia1.png')}}" alt="">
+    </div>
+    <div class="more3"><button class="more">PORTFOLIO</button></div>
+{% endblock grid %}

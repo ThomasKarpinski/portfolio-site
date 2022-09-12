@@ -4,8 +4,21 @@
     <list default="true" id="1759239b-6658-4126-8cbe-36d2eae7c5e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/zdjęcia_portfolio/1653765425392.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/zdjęcia_portfolio/1653766114141.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/zdjęcia_portfolio/1653766860442.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/zdjęcia_portfolio/1653767135902.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/zdjęcia_portfolio/1655228216755.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/zdjęcia_portfolio/1656363460453.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/zdjęcia_portfolio/DSC00026.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/zdjęcia_portfolio/_DSC0893-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/zdjęcia_portfolio/_DSC0928-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/zdjęcia_portfolio/_DSC1191.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/zdjęcia_portfolio/_DSC1364.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/zdjęcia_portfolio/_DSC1392.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/zdjęcia_portfolio/_DSC1496-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/zdjęcia_portfolio/_DSC2338.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/zdjęcia_portfolio/fading_into_city-2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/landingpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landingpage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/templates.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/templates.html" afterDir="false" />
     </list>
@@ -19,8 +32,8 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -97,7 +110,8 @@
       <workItem from="1661461097618" duration="4946000" />
       <workItem from="1661513597978" duration="8075000" />
       <workItem from="1661541076625" duration="10117000" />
-      <workItem from="1661705857675" duration="16039000" />
+      <workItem from="1661705857675" duration="16534000" />
+      <workItem from="1661770739221" duration="10784000" />
     </task>
     <servers />
   </component>
@@ -114,5 +128,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
