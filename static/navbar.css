@@ -69,8 +69,12 @@ nav {
 }
 
 .logo:hover {
-    transform: scale(1.1);
-    transition: transform 3s ease;
+    filter: drop-shadow(5px 5px 2px black);
+    transition: filter 0.5s ease;
+}
+
+.logo:active {
+    filter: drop-shadow(5px 5px 2px var(--third-leading-color));
 }
 
 .box--from-bottom {

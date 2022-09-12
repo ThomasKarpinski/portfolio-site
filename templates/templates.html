@@ -46,3 +46,26 @@
     </div>
     <div class="more3"><button class="more">PORTFOLIO</button></div>
 {% endblock grid %}
+
+{% block footer %}
+    <footer>
+        <div class="foot_icons">
+            <img class="f_i" src="{{url_for('static', filename='grafiki_pod_strone/1x/instk2.svg')}}" alt="">
+            <img class="f_f" src="{{url_for('static', filename='grafiki_pod_strone/1x/facek2.svg')}}" alt="">
+        </div>
+        <div class="f_rest">
+            <div id="f_text1">Made with ♥ by Profound Studio</div>
+                <div class="inputBox">
+                    <input type="text">
+                    <span>Email</span>
+                </div>
+            <div class="f_links">
+                <p href="">Regulamin strony</p>
+                <p href="">O mnie</p>
+                <p href="">portfolio</p>
+                <p href="">kontakt</p>
+            </div>
+        </div>
+        <div class="f_bottom">PS@All Rights Reserved</div>
+    </footer>
+{% endblock footer %}
