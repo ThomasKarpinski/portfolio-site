@@ -1,6 +1,11 @@
-const link = () =>{
+const link1 = () =>{
     location.href = "/home";
 }
+
+const link3 = () =>{
+    location.href = "/portfolio";
+}
+
 const nav = document.querySelector('nav');
 const buttons = document.querySelector('.navbar_buttons');
 const logo = document.querySelector('.logo');

@@ -4,11 +4,11 @@
 
 {% block nav %}
 <nav>
-    <img onclick="link()" class="logo box--from-bottom" src="{{url_for('static', filename='grafiki_pod_strone/polaroid_light4.png')}}"  alt="logo">
+    <img onclick="link1()" class="logo box--from-bottom" src="{{url_for('static', filename='grafiki_pod_strone/polaroid_light4.png')}}" alt="logo">
     <div class="navbar_buttons">
-        <button onclick="link()" class="navbar_b">HOME</button>
+        <button onclick="link1()" class="navbar_b">HOME</button>
         <button class="navbar_b but1">O MNIE</button>
-        <button class="navbar_b">PORTFOLIO</button>
+        <button onclick="link3()" class="navbar_b">PORTFOLIO</button>
         <button class="navbar_b">KONTAKT</button>
     </div>
     <img class="menu_icon" src="{{url_for('static', filename='grafiki_pod_strone/menu.svg')}}" alt="menu">
