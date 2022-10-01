@@ -1,6 +1,6 @@
 footer {
     background-color: var(--second-leading-color);
-    height: 40vh;
+    height: 50vh;
     width: 100vw;
     margin-top: 10%;
     display: flex;
@@ -34,14 +34,20 @@ footer {
 }
 
 .f_links {
+    margin-bottom: 5%;
+}
+
+.f_links a:nth-child(n) {
     display: flex;
     flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
     color: white;
     font-size: 24px;
     text-transform: uppercase;
-    text-decoration: none;
     gap: 10%;
-    width: 50vw;
+    margin: 0;
+    padding: 0;
 }
 
 .f_rest {
@@ -59,4 +65,11 @@ footer {
     background-color: #210c33;
     width: 100vw;
     height: 10vh;
+    margin: 0;
+    padding: 0;
+}
+
+.f_links a:nth-child(n):hover {
+    border-top: 2px white solid;
+    border-bottom: 2px white solid;
 }

@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1759239b-6658-4126-8cbe-36d2eae7c5e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/advanced_animation.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/advanced_animation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/grid_photos.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/grid_photos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/landing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/landingpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landingpage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/templates.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/templates.html" afterDir="false" />
     </list>
@@ -99,7 +103,8 @@
       <workItem from="1661770739221" duration="10784000" />
       <workItem from="1662991805513" duration="16568000" />
       <workItem from="1663412967257" duration="5165000" />
-      <workItem from="1664563131379" duration="5519000" />
+      <workItem from="1664563131379" duration="5810000" />
+      <workItem from="1664625429613" duration="17205000" />
     </task>
     <servers />
   </component>

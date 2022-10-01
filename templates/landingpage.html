@@ -27,7 +27,6 @@
         {% block typing %}{% endblock typing %}
         <section class="sec1">
             <img class="background" src="{{url_for('static', filename='../static/grafiki_pod_strone/mainwebdrawing2.svg')}}" alt="logo">
-            {% block advancedAnimation %}{% endblock advancedAnimation %}
             {% block rightnav %}{% endblock rightnav %}
         </section>
         <section class="sec2">
@@ -54,10 +53,16 @@
             </div>
         </section>
         <section class="sec4">
+            {% block advancedAnimation %}{% endblock advancedAnimation %}
+        </section>
+        <section class="sec5">
+            <div class="over">
             <h2 class="slogan2">capturing the beauty in everyday creation</h2>
             <div class="more2"><button class="more">CONTACT</button></div>
+            </div>
+            <div class="overlay"></div>
         </section>
-    <section class="sec5">
+    <section class="sec6">
         {% block grid %}{% endblock grid %}
     </section>
 
