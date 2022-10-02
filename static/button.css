@@ -28,6 +28,7 @@
 
 .more:hover::after {
     transform: translate(8px, 8px);
+    background-color: white;
 }
 
 .more:hover::before {

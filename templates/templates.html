@@ -37,14 +37,17 @@
 
 {% block grid %}
     <div class="photos">
-        <div class="napis">napis</div>
-        <img class="xd" src="{{url_for('static', filename='zdjęcia_portfolio/city.png')}}" alt="">
-        <img class="x2d" src="{{url_for('static', filename='zdjęcia_portfolio/speed1.png')}}" alt="">
-        <img class="x3d" src="{{url_for('static', filename='zdjęcia_portfolio/produkt1.jpg')}}" alt="">
-        <img class="x4d" src="{{url_for('static', filename='zdjęcia_portfolio/gabrysia.png')}}" alt="">
-        <img class="x5d" src="{{url_for('static', filename='zdjęcia_portfolio/zofia1.png')}}" alt="">
+
+            <div class="category1">
+                <div class="category">landscapes</div>
+                <img class="xd" src="{{url_for('static', filename='zdjęcia_portfolio/city.png')}}" alt="landscapes">
+            </div>
+        <img class="x2d" src="{{url_for('static', filename='zdjęcia_portfolio/speed1.png')}}" alt="city">
+        <img class="x3d" src="{{url_for('static', filename='zdjęcia_portfolio/produkt1.jpg')}}" alt="products">
+        <img class="x4d" src="{{url_for('static', filename='zdjęcia_portfolio/gabrysia.png')}}" alt="caricatures">
+        <img class="x5d" src="{{url_for('static', filename='zdjęcia_portfolio/zofia1.png')}}" alt="portraits">
     </div>
-    <div class="more3"><button class="more">PORTFOLIO</button></div>
+    <div class="more3"><button onclick="link3()" class="more">PORTFOLIO</button></div>
 {% endblock grid %}
 
 {% block advancedAnimation %}
@@ -53,10 +56,12 @@
         <button class="dot dot--top"></button>
         <button class="dot dot--right"></button>
         <button class="dot dot--bottom"></button>
-            <div class="sentence">accuracy</div>
-            <div class="sentence">reliability</div>
-            <div class="sentence">professionalism</div>
-            <div class="sentence">uniqueness</div>
+
+            <div class="sentence1">accuracy</div>
+            <div class="sentence2">reliability</div>
+            <div class="sentence3">artistry</div>
+            <div class="sentence4">uniqueness</div>
+
         <div class="pasek pasek--from-top"></div>
         <div class="pasek pasek--from-bottom"></div>
 
@@ -77,7 +82,7 @@
             <div class="f_links">
                 <a href="">Regulamin strony</a>
                 <a href="">O mnie</a>
-                <a href="">portfolio</a>
+                <a href="{{'portfolio.html'}}">portfolio</a>
                 <a href="">kontakt</a>
             </div>
         </div>
