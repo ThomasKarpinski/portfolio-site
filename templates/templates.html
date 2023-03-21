@@ -11,10 +11,20 @@
         <button onclick="link3()" class="navbar_b">PORTFOLIO</button>
         <button class="navbar_b">KONTAKT</button>
     </div>
-    <img class="menu_icon" src="{{url_for('static', filename='grafiki_pod_strone/menu.svg')}}" alt="menu">
-
 </nav>
 {% endblock %}
+
+{% block toggle %}
+<div class="dropdown">
+    <img onclick="toggleDropdown()" class="dropbtn" src="{{url_for('static', filename='grafiki_pod_strone/menu.svg')}}" alt="menu">
+    <div id="myDropdown" class="dropdown-content">
+        <a class="navbar_b" href="#">HOME</a>
+        <a class="navbar_b" href="#">O MNIE</a>
+        <a class="navbar_b" href="#">PORTFOLIO</a>
+        <a class="navbar_b" href="#">KONTAKT</a>
+    </div>
+</div>
+{% endblock toggle %}
 
 {% block typing %}
 <div class="typ">
