@@ -226,3 +226,30 @@ animation: appear2FromTop2 3s 0.5s both;
     transition: rotate .25s .1s ease-in-out;
 }
 
+@media screen and (max-width: 1400px){
+
+    .sec4 {
+        position: absolute;
+        opacity: 0;
+    }
+
+}
+
+.sec4 {
+    width: 100vw;
+}
+.sec3 {
+    width: 100vw;
+}
+
+.sec2 {
+    width: 100vw;
+}
+
+.sec1 {
+    width: 100vw;
+}
+
+nav {
+    width: 100vw;
+}
