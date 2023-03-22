@@ -7,9 +7,9 @@
     <img onclick="link1()" class="logo box--from-bottom" src="{{url_for('static', filename='grafiki_pod_strone/polaroid_light4.png')}}" alt="logo">
     <div class="navbar_buttons">
         <button onclick="link1()" class="navbar_b">HOME</button>
-        <button class="navbar_b but1">O MNIE</button>
+        <button onclick="scrollToSection()" class="navbar_b but1">O MNIE</button>
         <button onclick="link3()" class="navbar_b">PORTFOLIO</button>
-        <button class="navbar_b">KONTAKT</button>
+        <button onclick="scrollToSection_K()" class="navbar_b">KONTAKT</button>
     </div>
 </nav>
 {% endblock %}
@@ -18,10 +18,10 @@
 <div class="dropdown">
     <img onclick="toggleDropdown()" class="dropbtn" src="{{url_for('static', filename='grafiki_pod_strone/menu.svg')}}" alt="menu">
     <div id="myDropdown" class="dropdown-content">
-        <a class="navbar_b" href="#">HOME</a>
-        <a class="navbar_b" href="#">O MNIE</a>
-        <a class="navbar_b" href="#">PORTFOLIO</a>
-        <a class="navbar_b" href="#">KONTAKT</a>
+        <a onclick="link1()" class="navbar_b">HOME</a>
+        <a onclick="scrollToSection()" class="navbar_b">O MNIE</a>
+        <a onclick="link3()" class="navbar_b">PORTFOLIO</a>
+        <a onclick="scrollToSection_K()" class="navbar_b">KONTAKT</a>
     </div>
 </div>
 {% endblock toggle %}
@@ -51,14 +51,14 @@
 
             <div class="category1">
                 <div class="category">landscapes</div>
-                <img class="xd" src="{{url_for('static', filename='zdjęcia_portfolio/city.png')}}" alt="landscapes">
+                <img onclick="sesja5()" class="xd" src="{{url_for('static', filename='zdjęcia_portfolio/city.png')}}" alt="landscapes">
             </div>
-        <img class="x2d" src="{{url_for('static', filename='zdjęcia_portfolio/speed1.png')}}" alt="city">
-        <img class="x3d" src="{{url_for('static', filename='zdjęcia_portfolio/produkt1.jpg')}}" alt="products">
-        <img class="x4d" src="{{url_for('static', filename='zdjęcia_portfolio/gabrysia.png')}}" alt="caricatures">
-        <img class="x5d" src="{{url_for('static', filename='zdjęcia_portfolio/zofia1.png')}}" alt="portraits">
+        <img onclick="sesja1()" class="x2d" src="{{url_for('static', filename='zdjęcia_portfolio/speed1.png')}}" alt="city">
+        <img onclick="sesja2()" class="x3d" src="{{url_for('static', filename='zdjęcia_portfolio/produkt1.jpg')}}" alt="products">
+        <img onclick="sesja3()" class="x4d" src="{{url_for('static', filename='zdjęcia_portfolio/gabrysia.png')}}" alt="caricatures">
+        <img onclick="sesja4()" class="x5d" src="{{url_for('static', filename='zdjęcia_portfolio/zofia1.png')}}" alt="portraits">
     </div>
-    <div class="more3"><button onclick="link3()" class="more">PORTFOLIO</button></div>
+    <div class="more3"><button onclick="l1()" class="more">PORTFOLIO</button></div>
 {% endblock grid %}
 
 {% block advancedAnimation %}
@@ -81,7 +81,7 @@
 {% block footer %}
     <footer>
         <div class="foot_icons">
-            <img class="f_i" src="{{url_for('static', filename='grafiki_pod_strone/1x/instk2.svg')}}" alt="">
+            <img class="f_i" onclick="l1()" src="{{url_for('static', filename='grafiki_pod_strone/1x/instk2.svg')}}" alt="">
             <img class="f_f" src="{{url_for('static', filename='grafiki_pod_strone/1x/facek2.svg')}}" alt="">
         </div>
         <div class="f_rest">
@@ -91,10 +91,17 @@
                     <span>Email</span>
                 </div>
             <div class="f_links">
-                <a href="">Regulamin strony</a>
-                <a href="">O mnie</a>
-                <a href="{{'portfolio.html'}}">portfolio</a>
-                <a href="">kontakt</a>
+                <a onclick="showInfoWindow()">REGULAMIN STRONY</a>
+                <div id="infoWindow">
+                    <h3 style="color: black">TERMS AND CONDITIONS</h3>
+                    <p style="color: black">ALL PHOTOS AND GRAPHICS ON THE SITE ARE ORIGINAL.
+                        IF YOU WANT TO SHARE A PHOTO, SEND THAT PERSON A LINK TO THE PROVIDED
+                        INSTAGRAM ACCOUNT OR COPY THE PAGE ADDRESS 😉</p>
+                    <div id="closeButton" onclick="closeInfoWindow()">X</div>
+                </div>
+                <a onclick="scrollToSection()">O mnie</a>
+                <a onclick="scrollToSection_P()">portfolio</a>
+                <a onclick="scrollToSection_K()">kontakt</a>
             </div>
         </div>
         <div class="f_bottom">PS@All Rights Reserved</div>

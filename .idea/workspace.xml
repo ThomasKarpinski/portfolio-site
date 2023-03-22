@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1759239b-6658-4126-8cbe-36d2eae7c5e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/toggle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/toggle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/landingpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landingpage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/templates.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/templates.html" afterDir="false" />
     </list>
@@ -19,9 +18,9 @@
       <list>
         <option value="Python Script" />
         <option value="SCSS File" />
-        <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -43,6 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../weather_app" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -56,6 +56,27 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MojaStronaZPortfolio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="plotkowy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MojaStronaZPortfolio" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,7 +126,8 @@
       <workItem from="1664563131379" duration="5810000" />
       <workItem from="1664625429613" duration="20486000" />
       <workItem from="1664705585288" duration="6030000" />
-      <workItem from="1679420119815" duration="17276000" />
+      <workItem from="1679420119815" duration="17740000" />
+      <workItem from="1679510859226" duration="7528000" />
     </task>
     <servers />
   </component>
