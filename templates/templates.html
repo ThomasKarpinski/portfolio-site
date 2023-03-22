@@ -86,10 +86,14 @@
         </div>
         <div class="f_rest">
             <div id="f_text1">Made with ♥ by Profound Studio</div>
+            <form method="post" action="/submit">
                 <div class="inputBox">
-                    <input type="text">
+                    <input type="text" id="text" name="text">
                     <span>Email</span>
                 </div>
+                    <input style="display: flex; justify-content: center" class="btn" type="submit" value="Submit">
+
+            </form>
             <div class="f_links">
                 <a onclick="showInfoWindow()">REGULAMIN STRONY</a>
                 <div id="infoWindow">
