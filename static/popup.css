@@ -17,3 +17,8 @@
     right: 5px;
     cursor: pointer;
 }
+
+#infoWindow2 {
+    display: flex;
+
+}
